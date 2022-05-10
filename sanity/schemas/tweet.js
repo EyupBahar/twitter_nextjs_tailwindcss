@@ -5,18 +5,17 @@ export default {
   fields: [
     {
       name: 'text',
-      title: 'Text in Tweet',
+      title: 'Text in tweet',
       type: 'string',
     },
     {
       name: 'blockTweet',
-      title: 'BlockTweet',
-      type: 'slug',
-      description: 'ADMIN Controls: Toggle if Tweet is deemed innappropriate ',
+      title: 'Block Tweet',
+      description: 'ADMIN Controls: Toggle if Tweet is deemed inappropriate',
       type: 'boolean',
     },
     {
-      name: 'usename',
+      name: 'username',
       title: 'Username',
       type: 'string',
     },
@@ -27,7 +26,7 @@ export default {
     },
     {
       name: 'image',
-      title: 'Tweet image',
+      title: 'Tweet Image',
       type: 'string',
     },
   ],
