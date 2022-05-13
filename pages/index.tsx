@@ -11,18 +11,14 @@ const Home: NextPage = () => {
       <Head>
         <title>Twitter 2.0</title>
       </Head>
-
       <main className="grid grid-cols-9">
         <Sidebar />
-
         <Feed />
-
         <Widgets />
       </main>
     </div>
   )
 }
-
 export default Home
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
