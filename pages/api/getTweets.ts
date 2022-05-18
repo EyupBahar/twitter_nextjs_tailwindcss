@@ -20,5 +20,8 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   const tweets: Tweet[] = await sanityClient.fetch(feedQuery)
-  res.status(200).json({ name: 'John Doe' })
+
+  console.log(tweets, 'getTweets')
+
+  res.status(200).json({ tweets })
 }
